@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Machine: localhost
--- Genereertijd: 10 dec 2015 om 15:58
+-- Genereertijd: 10 dec 2015 om 16:09
 -- Serverversie: 5.5.20
 -- PHP-Versie: 5.3.9
 
@@ -19,8 +19,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `myreddit`
 --
-CREATE DATABASE `myreddit` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `myreddit`;
 
 -- --------------------------------------------------------
 
@@ -50,11 +48,6 @@ INSERT INTO `artikel` (`Id`, `Title`, `Created`, `Url`, `Summary`, `Author`) VAL
 (8, 'sakulkh@gmail.com', '2015-12-09 10:19:25', 'https://www.youtube.com/watch?v=Qg1qZq5yjps', 'Gave read use way make spot how nor. In daughter goodness an likewise oh consider at procured wandered. Songs words wrong by me hills heard timed. Happy eat may doors songs. Be ignorant so of suitable dissuade weddings together. Least whole timed we is. An smallness deficient discourse do newspaper be an eagerness continued. Mr my ready guest ye after short at. ', 'Lukas Klein Haneveld'),
 (50, 'Test', '2015-12-09 11:15:31', 'https://www.google.nl', 'Als t goed is is deze post nu op de homepage geplaatst :D', 'Zathoxic'),
 (59, 'esg', '2015-12-10 14:58:06', 'arhd', 'adh', 'EWGS');
---
--- Database: `test`
---
-CREATE DATABASE `test` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `test`;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
